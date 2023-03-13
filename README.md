@@ -1,4 +1,4 @@
-# co0844ea0a051b591f42ad757
+# Basketball scoreboard
 
 Quick start:
 
