@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <h2 id="header">Game tied!</h2>
+        <div class="container">
+            <div>
+                <h3 class="container-title">HOME</h3>
+                <p class="container-score" id="home-score">0</p>
+                <div class="container-buttons">
+                    <button class="plus-button" id="home1" onclick="homeSum(1)">+1</button>
+                    <button class="plus-button" id="home2" onclick="homeSum(2)">+2</button>
+                    <button class="plus-button" id="home3" onclick="homeSum(3)">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="container-title">GUEST</h3>
+                <p class="container-score" id="guest-score">0</p>
+                <div class="container-buttons">
+                    <button class="plus-button" id="guest1" onclick="guestSum(1)">+1</button>
+                    <button class="plus-button" id="guest2" onclick="guestSum(2)">+2</button>
+                    <button class="plus-button" id="guest3" onclick="guestSum(3)">+3</button>
+                </div>
+            </div> 
+        </div>
+        <div class="container">
+            <p id="countup">00:00</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
