@@ -50,3 +50,6 @@ function upTimer() {
     
     countup.textContent = minuteString + ":" + secondsString;
 }
+
+window.homeSum = homeSum
+window.guestSum = guestSum
